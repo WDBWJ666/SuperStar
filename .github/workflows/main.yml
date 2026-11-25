@@ -31,5 +31,5 @@ jobs:
           CHAOXING_COURSE_LIST: ${{ secrets.CHAOXING_COURSE_LIST }}
         run: python main.py -u "$CHAOXING_USERNAME" -p "$CHAOXING_PASSWORD" -l "$CHAOXING_COURSE_LIST"
       - name: Run main.py
-        run: python main.py -u 266501893 -p153083259 -l337862382
+        run: python main.py -u 13824483821 -p abcdefg1234567 -l 266501893
         
